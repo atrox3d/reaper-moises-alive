@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1671089334
+<REAPER_PROJECT 0.1 "6.68/win64" 1694453080
   <NOTES 0 2
   >
   RIPPLE 0
@@ -17,12 +17,12 @@
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   CURSOR 0
-  ZOOM 2.32748451506297 0 0
+  ZOOM 2.79298141807556 0 0
   VZOOMEX 2 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -59,9 +59,9 @@
   >
   GLOBAL_AUTO -1
   TEMPO 72.5 4 4
-  PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  PLAYRATE 1 1 0.25 4
+  SELECTION 3.3323330359491 344.10065641962717
+  SELECTION2 3.3323330359491 344.10065641962717
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -184,7 +184,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.00033123050181 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -205,7 +205,7 @@
     <ITEM
       POSITION 0.49
       SNAPOFFS 0
-      LENGTH 367.572
+      LENGTH 56.17000000016268
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -222,6 +222,98 @@
       GUID {9BBF10AE-815F-49E8-A87E-75136C8EC259}
       <SOURCE VIDEO
         FILE "video-in\pearljam-alive-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 56.66000000016268
+      SNAPOFFS 0
+      LENGTH 311.4019999998373
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {3BA6568C-FBF3-428C-8EAB-4CED136E893E}
+      IID 1
+      NAME pearljam-alive-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 56.17000000016268
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5362441A-BB34-46AA-A725-29FBD1857B41}
+      <SOURCE VIDEO
+        FILE "video-in\pearljam-alive-drum-cover.mp4"
+      >
+    >
+  >
+  <TRACK {D1AE29FE-41CA-4E6D-A735-BF20AD8D5530}
+    NAME DRUMS
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D1AE29FE-41CA-4E6D-A735-BF20AD8D5530}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.49
+      SNAPOFFS 0
+      LENGTH 56.17000000016268
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C285FE83-1DA0-4B5A-9DB9-406C6C4BB224}
+      IID 3
+      NAME "pearljam-alive-drum-cover-drums-A minor-149bpm.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6175A3D-4224-472D-8493-B4DB29E9FEDA}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "audio-in\pearljam-alive-drum-cover-drums-A minor-149bpm.m4a"
+      >
+    >
+    <ITEM
+      POSITION 56.66000000016268
+      SNAPOFFS 0
+      LENGTH 243.82999999983733
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {3A642367-FDA8-4B5C-AC6B-7444912835C3}
+      IID 3
+      NAME "pearljam-alive-drum-cover-drums-A minor-149bpm.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 56.17000000016268
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC70DE5D-782B-4B08-816B-AD52D4540350}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "audio-in\pearljam-alive-drum-cover-drums-A minor-149bpm.m4a"
       >
     >
   >
@@ -249,53 +341,6 @@
     MIDIOUT -1
     MAINSEND 1 0
   >
-  <TRACK {D1AE29FE-41CA-4E6D-A735-BF20AD8D5530}
-    NAME DRUMS
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {D1AE29FE-41CA-4E6D-A735-BF20AD8D5530}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 0.49
-      SNAPOFFS 0
-      LENGTH 300
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C285FE83-1DA0-4B5A-9DB9-406C6C4BB224}
-      IID 3
-      NAME "pearljam-alive-drum-cover-drums-A minor-149bpm.m4a"
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {B6175A3D-4224-472D-8493-B4DB29E9FEDA}
-      <SOURCE VIDEO
-        FLIP 0 1
-        FILE "audio-in\pearljam-alive-drum-cover-drums-A minor-149bpm.m4a"
-      >
-    >
-  >
   <TRACK {846AFC98-1CD4-4250-9930-7ED9273621A4}
     NAME BASS
     PEAKCOL 16576
@@ -322,7 +367,7 @@
     <ITEM
       POSITION 0.49
       SNAPOFFS 0
-      LENGTH 300
+      LENGTH 56.17000000016268
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -342,13 +387,36 @@
         FILE "audio-in\pearljam-alive-drum-cover-bass-A minor-149bpm.m4a"
       >
     >
+    <ITEM
+      POSITION 56.66000000016268
+      SNAPOFFS 0
+      LENGTH 243.82999999983733
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {57A27262-2A73-44E7-8044-83EE839DAB58}
+      IID 2
+      NAME "pearljam-alive-drum-cover-bass-A minor-149bpm.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 56.17000000016268
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D2099BE4-9D60-4509-BA0C-1C06001B6A8A}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "audio-in\pearljam-alive-drum-cover-bass-A minor-149bpm.m4a"
+      >
+    >
   >
   <TRACK {F83835A5-8C8C-4BD3-8323-C38FA02DE851}
     NAME GUITAR
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.18947831560292 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -369,7 +437,7 @@
     <ITEM
       POSITION 0.49
       SNAPOFFS 0
-      LENGTH 300
+      LENGTH 56.17000000016268
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -384,6 +452,29 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F5B6F0CE-6916-49E4-A7B4-F7732264F17B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "audio-in\pearljam-alive-drum-cover-other-A minor-149bpm.m4a"
+      >
+    >
+    <ITEM
+      POSITION 56.66000000016268
+      SNAPOFFS 0
+      LENGTH 243.82999999983733
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {7D71C975-6054-41D8-A036-76020D909581}
+      IID 5
+      NAME "pearljam-alive-drum-cover-other-A minor-149bpm.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 56.17000000016268
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9AF676A8-B80F-44D1-8917-A9D7ADBA198B}
       <SOURCE VIDEO
         FLIP 0 1
         FILE "audio-in\pearljam-alive-drum-cover-other-A minor-149bpm.m4a"
@@ -416,7 +507,7 @@
     <ITEM
       POSITION 0.49
       SNAPOFFS 0
-      LENGTH 300
+      LENGTH 56.17000000016268
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -436,6 +527,29 @@
         FILE "audio-in\pearljam-alive-drum-cover-vocals-A minor-149bpm.m4a"
       >
     >
+    <ITEM
+      POSITION 56.66000000016268
+      SNAPOFFS 0
+      LENGTH 243.82999999983733
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {4257932B-7F02-402B-AC68-4DDE897FE48D}
+      IID 6
+      NAME "pearljam-alive-drum-cover-vocals-A minor-149bpm.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 56.17000000016268
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {164E215F-54B6-4C2A-ADCA-1EA2C3854BBA}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "audio-in\pearljam-alive-drum-cover-vocals-A minor-149bpm.m4a"
+      >
+    >
   >
   <TRACK {51575F75-A947-4DA8-9CC0-6F5C8D477241}
     NAME AUDIO-CLICK
@@ -443,7 +557,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -463,7 +577,7 @@
     <ITEM
       POSITION 0.49
       SNAPOFFS 0
-      LENGTH 60
+      LENGTH 56.17000000016268
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -478,6 +592,29 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {373A709B-3EB7-45BF-899E-9775C470601B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "audio-in\pearljam-alive-drum-cover-metronome-A minor-149bpm.m4a"
+      >
+    >
+    <ITEM
+      POSITION 56.66000000016268
+      SNAPOFFS 0
+      LENGTH 3.82999999983732
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {CAEF95E7-4393-49DF-A96B-8A7BDF2AE1C8}
+      IID 4
+      NAME "pearljam-alive-drum-cover-metronome-A minor-149bpm.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 56.17000000016268
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3826C71A-A0F5-41DA-B9AA-BACB67CA2DE7}
       <SOURCE VIDEO
         FLIP 0 1
         FILE "audio-in\pearljam-alive-drum-cover-metronome-A minor-149bpm.m4a"
